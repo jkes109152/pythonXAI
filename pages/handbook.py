@@ -1,7 +1,8 @@
 import streamlit as st
 
-st.write(
-    """
+with st.expander("Class1筆記"):
+    st.write(
+        """
     這裡是你今天學到的 Python 內容，用國小六年級能懂的方式幫你整理：
 
 ---
@@ -194,4 +195,4 @@ print("平均成績是：", 平均)
 這樣就把今天上課學到的 Python 全部整理好了，記得多練習喔！
 
     """
-)
+    )
