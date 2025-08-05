@@ -70,3 +70,8 @@ print(int(a) + 10)
 print(type(a))  # 證明透過input()輸入內容都是字串
 abc = int(input("請輸入半徑"))
 print(abc * abc * 3.14)
+chA = int(input("請輸入國文期中成績"))
+chB = int(input("請輸入國文期中成績"))
+chAB = chA + chB
+chAB = chAB / 2  # 計算國文期中成績平均
+print(chAB)  # 計算國文期中成績平均
