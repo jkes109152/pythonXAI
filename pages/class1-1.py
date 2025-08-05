@@ -74,3 +74,8 @@ chB = int(input("請輸入國文期中成績"))
 chAB = chA + chB
 chAB = chAB / 2  # 計算國文期中成績平均
 print(chAB)  # 計算國文期中成績平均
+# 字串格式化
+name = "小明"
+age = 18
+print(f"hello,my name is {name}, I am {age} years old")  # 使用f-string格式化字串
+# 可以將變數直接放在大括號{}裡面，這樣就可以在字串中使用變數的值了)
