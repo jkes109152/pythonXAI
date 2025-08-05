@@ -6,7 +6,6 @@
 print("Hello World!")  # print是在終端機顯示文字的指令
 # ctrl + ? 可以快速註解/取消註解
 
-# test
 # 基本型態
 print(1)  # int這是整數,-1,0,1,2,3,4,5,6,7,8,9
 print(1.0)  # float這是浮點數
