@@ -32,7 +32,7 @@ while True:
         elif u > 5:
             print("你很棒！👍")
         elif u == 0:
-            print("你一定看過程式碼了！(¬‿¬)")
+            print("你一定看過程式碼了！(¬‿¬)[臭外掛]")
         elif u <= 5:
             print("你真是天才！w(ﾟДﾟ)w")
         break
