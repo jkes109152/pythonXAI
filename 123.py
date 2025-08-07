@@ -39,6 +39,10 @@ while True:
     elif user_guess == int(123098):
         u = -1
         print(a)
+        k = input("好了沒")
+        if k == "ok":
+            for i in range(30):
+                print(f"輸入的不是數字，或不是介於 {s} 到 {b} 之間的數字，請重新輸入")
     else:
         print(f"輸入的不是數字，或不是介於 {s} 到 {b} 之間的數字，請重新輸入")
         u -= 1
